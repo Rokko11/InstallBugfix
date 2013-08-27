@@ -1,2 +1,2 @@
-app/code/local/Rokko/InstallBugfix/ app/code/local/Rokko/InstallBugfix/
+app/code/community/Rokko/InstallBugfix/ app/code/community/Rokko/InstallBugfix/
 app/etc/modules/Rokko_InstallBugfix.xml app/etc/modules/Rokko_InstallBugfix.xml

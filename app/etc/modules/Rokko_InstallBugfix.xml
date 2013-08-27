@@ -3,7 +3,7 @@
     <modules>
         <Rokko_InstallBugfix>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
             <depends>
                 <Mage_Install/>
             </depends>
