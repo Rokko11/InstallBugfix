@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Rokko_InstallBugfix>
+            <version>0.1.0</version>
+        </Rokko_InstallBugfix>
+    </modules>
+    <global>
+        <models>
+            <installbugfix>
+                <class>Rokko_InstallBugfix_Model</class>
+            </installbugfix>
+            <install>
+                <rewrite>
+                    <installer_db_mysql4>Rokko_InstallBugfix_Model_Installer_Db_Mysql4</installer_db_mysql4>
+                </rewrite>
+            </install>
+        </models>
+    </global>
+    <phpunit>
+        <suite>
+            <modules>
+                <Rokko_InstallBugfix/>
+            </modules>
+        </suite>
+    </phpunit>
+</config>
