@@ -1,0 +1,15 @@
+{
+    "name":"Rokko11/install-bugfix",
+    "type":"magento-module",
+    "license":"OSL-3.0",
+    "description":"Fixes Innodb-Bug for Magento < 1.8 and Mysql > 5.5",
+    "authors":[
+        {
+	    "name":"Richard Vogel",
+	    "email":"github@richard-rockt.de"
+	}
+    ],
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    }
+}
